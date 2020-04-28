@@ -1,5 +1,5 @@
 FROM fedora
-LABEL maintainer="kdevensen@gmail.com"
+LABEL maintainer="afuentes@gbm.net"
 ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk \
     HOME=/home/default \
     GOPATH=/homde/default/go
