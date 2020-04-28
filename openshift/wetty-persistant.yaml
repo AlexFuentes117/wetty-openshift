@@ -64,7 +64,7 @@ objects:
           value: ${NPM_MIRROR}
         from:
           kind: ImageStreamTag
-          name: nodejs:8
+          name: nodejs:10
           namespace: ${NAMESPACE}
       type: Source
     triggers:
@@ -154,7 +154,7 @@ parameters:
   displayName: Git Repository URL
   name: SOURCE_REPOSITORY_URL
   required: true
-  value: https://github.com/kevensen/wetty.git
+  value: https://github.com/AlexFuentes117/wetty-openshift.git
 - description: Set this to a branch name, tag or other ref of your repository if you
     are not using the default branch.
   displayName: Git Reference
